@@ -34,12 +34,12 @@ const createWindow = () => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', function() {
   createWindow()
-  // globalShortcut.register('Control+Shift+I', () => {
-  //   // When the user presses Ctrl + Shift + I, this function will get called
-  //   // You can modify this function to do other things, but if you just want
-  //   // to disable the shortcut, you can just return false
-  //   return false;
-  // });
+  globalShortcut.register('Control+Shift+I', () => {
+    // When the user presses Ctrl + Shift + I, this function will get called
+    // You can modify this function to do other things, but if you just want
+    // to disable the shortcut, you can just return false
+    return false;
+  });
 });
 
 // Quit when all windows are closed, except on macOS. There, it's common
