@@ -1,6 +1,9 @@
 # mailbook-app
 Simple, focused and clean email reader for Gmail
 
+![e](https://i.imgur.com/4mvxIh9.png)
+![e](https://i.imgur.com/JI9WjJA.png)
+
 Since I don't feel like implementing a whole server side oAuth flow, you'll need to register your own Gmail API client for this. Follow the instructions here:
 
 # How to Install
@@ -14,8 +17,6 @@ Right side of the screen.
 ### Option 2: Self Build
 
 Clone the repo and run ```npx electron-forge make```. This might take some time, go do something else in the meanwhile. Find the exe in the ```out``` directory. 
-
-
 
 # How to Use
 
