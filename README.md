@@ -16,7 +16,7 @@ Right side of the screen.
 
 ### Option 2: Self Build
 
-Clone the repo and run ```npx electron-forge make```. This might take some time, go do something else in the meanwhile. Find the exe in the ```out``` directory. 
+Clone the repo and run ```npx electron-forge make```. This might take some time, go do something else meanwhile. Find the exe in the ```out``` directory. 
 
 # How to Use
 
