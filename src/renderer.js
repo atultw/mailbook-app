@@ -15,8 +15,3 @@ document.addEventListener("keydown", function () {
 document.addEventListener("click", function() {
    document.getElementById('intro').classList.add('invisible')
 });
-
-function finish() {
-    console.log('done');
-    close()
-}
